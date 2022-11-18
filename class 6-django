@@ -1,0 +1,17 @@
+def django():
+    print("Hello Django")
+django()
+django()
+
+'''sytemproject make korar all 
+virtual enviroment create-- python -m venv env /enter/ 
+for activation---          . env/Scripts/activate/enter
+for django install---      pip install django/enter
+for upgrade django---      python.exe -m pip install --upgrade pip
+for django project---      django-admin startproject name_project/enter
+for testing/run project--- python manage.py runserver/enter/-- file location thik rakhte hobe
+for create app--           python manage.py startapp name_app/enter
+
+
+
+ '''

@@ -1,0 +1,205 @@
+# a = 23
+# b= 34
+# c = 22
+# d= 5
+# e = 10
+# Num1= a+b+c
+# print(Num1)
+
+# Num2=a+c-e
+# print(Num2)
+
+# Num3= e/d
+# print(int(Num3))
+
+# Num4= b//d
+# print(Num4)
+
+# Num5= b%e
+# print(Num5)
+
+# Num6= c/e
+# print(float(Num6))
+
+# Num7= e**d
+# print(Num7)
+
+# #assignment operator
+# Num1+=6
+# print(Num1)
+
+# x=1
+# x+=3
+# print(x)
+
+# y=10
+# y-=5
+# print(y)
+
+# g= 2
+# g*=2
+
+# print(g)
+
+# Num8=20
+# Num8 &=5
+
+# print(Num8)
+
+# Num88=10
+# Num88 &=8
+# print(Num88)
+
+ 
+# Num9=10         
+# Num9|=8         
+
+# print(Num9)    
+
+
+# a1=35
+# a2=44
+# a3=89
+# a4=65
+
+# if a1>a2 and a1>a3 and a1>a4:
+#     print(a1)
+# elif a2>a1 and a2>a3 and a2>a4:
+#     print(a2)
+# elif a3>a1 and a3>a2 and a3>a4:
+#     print(a3)
+# else:
+#     print(a4)
+
+# if a1==a2:
+#     print("Done")
+# else:
+#     print("Exit")
+# if a3<a4:
+#     print("No")
+# elif a3==a4:
+#     print("Ok")
+# else:
+#     print('somthing going wrong')
+
+    
+    
+# Num10= 10
+# Num11= 15
+# Num12 = 30
+# if Num10> Num11 and Num10 > Num12:
+#     print(Num10)
+# elif Num11>Num10 and Num11 > Num12:
+#     print(Num11)
+# else: 
+#     print(Num12)
+    
+# x=33
+# y=88
+
+# if x!=y:
+#     print('True')
+# elif x==y:
+#     print('False')
+# else:
+#     print('Something error')
+    
+
+# result= int(input('Enter your mark'))
+
+# if 100< result <0:
+#     print('Invalid')
+# elif 100>=result>=80:
+#     print('A+')
+# elif 79>=result>=70:
+#     print('A')
+# elif 69>=result>=60:
+#     print('A-')
+# elif 59>=result>=50:
+#     print('B')
+# elif 49>=result>=40:
+#     print('c')
+# elif 39>=result>=33:
+#     print('D')
+# elif 33>=result>=0:
+#     print('Fail')
+    
+# #loop
+# # for loop 
+# # while loop
+# # for num in range(1,11,2):
+# #     print(num)
+
+# for a in range(1,30,2):
+#     if a%2 !=0:
+#         print(a)    
+
+
+for a in range(1,11):
+    if a%2==0:
+        print(a)
+
+# for result in range(1,25,2):
+#     if result%5 !=0:
+#         print(result)
+
+#             #Q-1
+# '''Sentence gulo emon vabe make korte hobe jeno 'I' and "you" er sathe "knows" na ase
+# sudhu jeno "know ase
+# and "she" er sathe jeno "know" na ase, shudu jeno "knows" ase
+# '''
+# c1=['I','You','she']
+# c2=['know','knows']
+# c3=['Towhid']
+
+# for x in c1:
+# #     if x=='knows':
+# #         break
+#  for y in c2:
+# #     if y=='knows':
+# #         break
+#   for z in c3:
+# #     if z=='know':
+# #        pass
+
+#    print(x,y,z)
+
+
+# # Q-2
+# '''I=am, 
+#     you=are, 
+#       He/she=is hobe,,,
+
+# I don't equal is or are,
+#  you don't equal am or is
+#   He/she don't equal am or are
+
+# '''
+# s1=['I',"you",'He']
+# s2=['am','is','are']
+
+# for x in s1:
+
+#  for y in s2:
+#   print(x,y)
+  
+# # c1=[a='I',b='You',c='she']
+# # c2=[d='know',e='knows']
+# # c3=[f='Towhid']
+
+# # while 
+
+# #    print(x,y,z)
+
+# i = 20
+# while i < 30:
+#   print(i)
+#   if i == 25:
+#     break
+#   i += 1
+  
+        
+    
+
+
+

@@ -1,0 +1,85 @@
+class person:
+    def add(a,Abul, Rahim):
+        return Abul - Rahim
+person_obj= person()
+print(person_obj.add(100,987))
+
+class me:
+    def name(self, Hayat, Murat):
+        return Hayat+Murat
+me_obj= me()    
+print(me_obj.name(900,78))
+
+##############
+
+class Calculator:
+    def add(self, a, b):
+        add= a+b
+        return add
+    def minimize(self, a, b):
+        minimize= a-b
+        return minimize
+    def into(self, a, b):
+        into= a*b
+        return into
+    def div(self, a, b):
+        div = a/b
+        return div
+Calculator_obj= Calculator()
+print(Calculator_obj.add(10,20))
+print(Calculator_obj.minimize(30,20))
+print(Calculator_obj.into(10,2))
+print(int(Calculator_obj.div(40,8)))
+
+
+
+
+
+#magic method
+class Calculator:
+    def __init__(self, a, b):
+        self.a =a
+        self.b = b
+    def add(self):
+        return self.a + self.b
+    def mini(self):
+        return self.a - self.b
+    def into(self):
+        return self.a * self.b
+    def div(self):
+        return self.a / self.b
+    
+Calculator_obj= Calculator(100,10)
+print(Calculator_obj.add())
+print(Calculator_obj.mini())
+print(Calculator_obj.into())
+print(int(Calculator_obj.div()))
+
+
+
+
+
+#############
+
+class Admission:
+    def __init__(self, Std1, Std2):
+        self.Std1 = Std1
+        self.Std2 = Std2
+    def add(self):
+        return self.Std1 + self.Std2
+    def mini(self):
+        return self.Std1 - self.Std2
+    def into(self):
+        return self.Std1 * self.Std2
+    def div(self):
+        return self.Std1 / self.Std2
+    def much(self):
+        return self.Std1 % self.Std2
+    
+Admission_obj= Admission(40,5)
+print(Admission_obj.add())
+print(Admission_obj.mini())
+print(Admission_obj.into())
+print(int(Admission_obj.div()))
+print(Admission_obj.much())
+

@@ -1,0 +1,54 @@
+# student_name= ['Tamim','Shakib', 'Mahmudullah', 'Mussfiq', 'Mashrafee', 'Souymo', 'Liton', 'Sabbir', 'Miraz', 'Rubel']
+
+# student_name.append('sabbir')        #sobar last e
+# student_name.insert(1,'sofiq')
+# student_name.extend('mussfiq')
+# student_name= student_name + ['uses_querygdhg']
+
+# # student_name[3]='Naim'
+# # student_name[0]='Munim'
+# # # student_name[2]='mahedi'
+
+# print(student_name)
+# # print(student_name[2])
+# # print(student_name[0:7])
+# # print(student_name[3])
+# # print(student_name[0])
+
+# # my_tuple = ('belal','rahim','musfiq')
+# # print(type(my_tuple))
+
+# # my_set ={'belal', 'rahim', 'belal'}
+# # print(type(my_set))
+# # print(my_set)
+
+# # a={1,2,3,4,5}
+# # b={6,7,8,9,5}
+
+# # print(a.union(b))
+# # print(a.intersection(b))
+# # print(a.difference(b))
+
+# # from curses import keyname
+# # from multiprocessing.sharedctypes import Value
+# # from unicodedata import name
+
+
+# # my_dic = {'name':'belal', 'Roll': 9986770, 'Dep':'CSE'
+# #           }
+# # # name = key
+# # # belal = Value
+# # my_dic['Reg']=1325445567
+
+# # print(my_dic)
+
+
+
+
+
+
+
+
+
+
+
